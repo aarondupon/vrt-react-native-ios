@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "es2015",
+    "jsx": "react-native",
+    "allowJs": true,
+    "strict": true,
+    "outDir": "./.ts-compiled",
+    "rootDir": "./src",
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny":false,
+    "moduleResolution": "node"
+  },
+  "include": [
+    "./src/**/*", "./index.d.ts"
+  ]
+}
